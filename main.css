@@ -1,0 +1,30 @@
+.bg-head {
+    background: rgb(53, 208, 252);
+    background-image: url(bg-head.jpg) no-repeat;
+    background-image: url(bg-head.jpg), linear-gradient(150deg,rgb(252, 53, 53), rgb(71, 80, 255), aqua);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-head img {
+    width: 25%;
+}
+
+
+
+.navbar-title {
+    font-family: 'Righteous', cursive;
+    font-family: 'Fascinate Inline', cursive;
+    text-transform: lowercase;
+    text-shadow: 1px 4px rgba(0,0,0, .5);
+    font-size: 30px;
+}
+
+
+
+@media (max-width: 768px){
+.bg-head img {
+    width: 50%;
+}
+}
